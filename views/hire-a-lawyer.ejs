@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juristi | Hire A Lawyer</title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS Files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            /* Adjust as needed */
+        }
+
+        .card {
+            width: 100%;
+            max-width: 18rem;
+            flex: 1 1 auto;
+            /* Adjusts size based on content and container size */
+            margin-bottom: 1rem;
+            /* Spacing between rows */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title b {
+            font-size: 1.25rem;
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        /* Container Styling */
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            /* Spacing between tags */
+            justify-content: center;
+            padding: 15px;
+            background-color: #f8f9fa;
+            /* Light background */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Badge (Tag) Styling */
+        .tags-container .badge {
+            cursor: pointer;
+            font-size: 14px;
+            padding: 10px 15px;
+            border-radius: 50px;
+            /* Rounded tags */
+            transition: all 0.3s ease;
+            /* Smooth transition for hover effects */
+        }
+
+        /* Active Tag Styling */
+        .tags-container .badge.bg-primary {
+            background-color: #007bff;
+            color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4);
+        }
+
+        /* Inactive Tag Styling */
+        .tags-container .badge.bg-secondary {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        /* Hover Effect */
+        .tags-container .badge:hover {
+            background-color: #0056b3;
+            /* Darker blue on hover */
+            color: #fff;
+            transform: translateY(-2px);
+            /* Slight lift effect */
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+        }
+
+        /* Active Tag Hover Effect */
+        .tags-container .badge.bg-primary:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
+        }
+    </style>
+</head>
+
+<body class="starter-page-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="/" class="logo d-flex align-items-center me-auto me-lg-0">
+                <h1 class="sitename">JURISTI</h1>
+                <span>.</span>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="/#hero">Home<br></a></li>
+                    <li><a href="/#about">How It Works</a></li>
+                    <li><a href="/#features">Features</a></li>
+                    <li><a href="/#services">Services</a></li>
+                    <li><a href="/#get-consulting">Get Consulting</a></li>
+                    <li><a href="/hire-a-lawyer" class="active">Hire A Lawyer</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+            <div>
+                <a class="btn-getstarted" href="/juristi">Try Juristi</a>
+                <!-- <a class="btn-getstarted" href="/register">Register As Lawyer</a> -->
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title" data-aos="fade">
+            <div class="heading">
+                <div class="container">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h1>Hire A Lawyer</h1>
+                            <p class="mb-0">Navigating legal matters can be challenging, but finding the right lawyer
+                                doesn't have to be. Our "Hire a Lawyer" page offers an intuitive way to connect with
+                                experienced attorneys across various specialties. Use our filter options to quickly find
+                                lawyers tailored to your specific needs, whether it’s for business, family, criminal
+                                defense, or any other legal area. Each lawyer’s profile provides detailed insights into
+                                their expertise and services, helping you make an informed choice. Start exploring today
+                                to find the expert legal support you need.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Starter Section Section -->
+        <section id="starter-section" class="starter-section section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 mb-3">
+                        <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()"
+                            placeholder="Search for names..">
+                    </div>
+                </div>
+                <div class="tags-container mb-4">
+                    <span class="badge bg-primary tag-filter" data-filter="all">All</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="business">Business Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="family">Family Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="criminal">Criminal Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="immigration">Immigration Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="employment">Employment Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="personal-injury">Personal Injury
+                        Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="real-estate">Real Estate Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="tax">Tax Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="ip">Intellectual Property Lawyer</span>
+                    <span class="badge bg-secondary tag-filter" data-filter="bankruptcy">Bankruptcy Lawyer</span>
+                </div>
+
+                <div class="row" id="lawyer-cards-container">
+                    <!-- Lawyer cards will be dynamically inserted here -->
+                </div>
+            </div>
+
+        </section><!-- End Starter Section Section -->
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-4 col-md-6 footer-about">
+                <a href="/" class="logo d-flex align-items-center">
+                  <span class="sitename">JURISTI</span>
+                </a>
+                <div class="footer-contact pt-3">
+                  <p class="mt-3"><strong>Phone:</strong> <span>+91 77180 02112</span></p>
+                  <p><strong>Email:</strong> <span>shivajuristi@gmail.com</span></p>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="copyright">
+          <div class="container text-center">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">JURISTI</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+              Designed by <a href="#">Shiva Gupta</a>
+            </div>
+          </div>
+        </div>
+    
+      </footer>
+
+    <!-- Script Files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        function myFunction() {
+            var input, filter, cards, cardContainer, title, i;
+            input = document.getElementById("myFilter");
+            filter = input.value.toUpperCase();
+            cardContainer = document.getElementById("lawyer-cards-container");
+            cards = cardContainer.getElementsByClassName("card");
+
+            for (i = 0; i < cards.length; i++) {
+                title = cards[i].querySelector(".card-body h5.card-title");
+                if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+                    cards[i].classList.remove("d-none");
+                } else {
+                    cards[i].classList.add("d-none");
+                }
+            }
+        }
+
+        document.querySelectorAll('.tag-filter').forEach(tag => {
+            tag.addEventListener('click', function () {
+                const filter = this.getAttribute('data-filter');
+
+                // Highlight the selected tag
+                document.querySelectorAll('.tag-filter').forEach(tag => tag.classList.remove('bg-primary'));
+                this.classList.add('bg-primary');
+
+                // Show/Hide cards based on filter
+                document.querySelectorAll('.card').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-filter') === filter) {
+                        card.classList.remove('d-none');
+                    } else {
+                        card.classList.add('d-none');
+                    }
+                });
+            });
+        });
+
+
+        // Array of lawyer objects
+        const lawyers = [
+            { name: "Deepak Mishra", description: "Experienced corporate lawyer handling contracts and business disputes with a focus on efficiency and results.", fee: "₹10,000", field: "business" },
+            { name: "Sonia Patel", description: "Specialist in family law and divorce proceedings with a compassionate approach and strong negotiation skills.", fee: "₹12,000", field: "family" },
+            { name: "Amit Sharma", description: "Criminal defense lawyer with extensive experience in court trials and a track record of successful case outcomes.", fee: "₹15,000", field: "criminal" },
+            { name: "Ravi Kumar", description: "Immigration lawyer with expertise in visas, green cards, and citizenship applications, ensuring smooth immigration processes.", fee: "₹14,000", field: "immigration" },
+            { name: "Priya Singh", description: "Employment lawyer specializing in workplace issues, employment contracts, and employee rights with a focus on fair treatment.", fee: "₹11,000", field: "employment" },
+            { name: "Nisha Rathi", description: "Personal injury lawyer with a successful track record in handling accident claims and personal injury cases.", fee: "₹13,000", field: "personal-injury" },
+            { name: "Vikram Mehta", description: "Real estate lawyer with in-depth knowledge of property laws, transactions, and dispute resolution.", fee: "₹16,000", field: "real-estate" },
+            { name: "Anita Desai", description: "Tax lawyer with extensive experience in tax planning, compliance, and resolving tax disputes.", fee: "₹17,000", field: "tax" },
+            { name: "Manoj Jain", description: "Intellectual Property lawyer specializing in patents, trademarks, and copyright protection.", fee: "₹18,000", field: "ip" },
+            { name: "Kiran Agarwal", description: "Bankruptcy lawyer providing expert advice and representation for individuals and businesses facing financial difficulties.", fee: "₹20,000", field: "bankruptcy" },
+            { name: "Arjun Rao", description: "Corporate lawyer with expertise in mergers, acquisitions, and corporate governance.", fee: "₹22,000", field: "business" },
+            { name: "Geeta Sharma", description: "Family law attorney with experience in child custody, divorce, and family mediation.", fee: "₹13,500", field: "family" },
+            { name: "Rajesh Kumar", description: "Criminal defense expert with a history of defending high-profile cases and achieving favorable verdicts.", fee: "₹21,000", field: "criminal" },
+            { name: "Nitin Yadav", description: "Immigration attorney with a deep understanding of international immigration laws and processes.", fee: "₹15,500", field: "immigration" },
+            { name: "Simran Arora", description: "Employment law specialist providing comprehensive services for labor disputes and employee rights.", fee: "₹12,500", field: "employment" },
+            { name: "Ritu Agarwal", description: "Personal injury lawyer with a strong record in compensation claims and personal injury litigation.", fee: "₹14,500", field: "personal-injury" },
+            { name: "Suresh Patel", description: "Real estate attorney focused on property transactions, contract negotiations, and dispute resolution.", fee: "₹17,500", field: "real-estate" },
+            { name: "Pooja Joshi", description: "Tax consultant specializing in tax deductions, audits, and corporate tax planning.", fee: "₹19,000", field: "tax" },
+            { name: "Deepa Narayan", description: "Intellectual property attorney handling copyrights, trademarks, and patent applications.", fee: "₹21,500", field: "ip" },
+            { name: "Ramesh Singh", description: "Bankruptcy attorney providing legal support and guidance through bankruptcy filings and negotiations.", fee: "₹23,000", field: "bankruptcy" },
+            { name: "Aarti Kapoor", description: "Corporate lawyer with a focus on business law, commercial contracts, and corporate litigation.", fee: "₹25,000", field: "business" },
+            { name: "Shivani Gupta", description: "Experienced family law lawyer handling divorce, custody disputes, and family mediation.", fee: "₹14,000", field: "family" },
+            { name: "Vikas Rao", description: "Criminal defense lawyer with extensive experience in representing clients in serious criminal cases.", fee: "₹24,000", field: "criminal" },
+            { name: "Ranjit Singh", description: "Immigration lawyer specializing in complex visa applications and citizenship processes.", fee: "₹16,500", field: "immigration" },
+            { name: "Alok Kumar", description: "Employment lawyer offering services in wrongful termination cases and employment disputes.", fee: "₹13,000", field: "employment" },
+            { name: "Sneha Sharma", description: "Personal injury lawyer with a focus on workplace accidents and accident claims.", fee: "₹15,000", field: "personal-injury" },
+            { name: "Arvind Patel", description: "Real estate lawyer with expertise in property development and real estate investments.", fee: "₹19,500", field: "real-estate" },
+            { name: "Nidhi Kapoor", description: "Tax lawyer providing comprehensive services for tax planning and tax dispute resolution.", fee: "₹20,500", field: "tax" },
+            { name: "Sunil Agarwal", description: "Intellectual property lawyer with expertise in IP litigation and patent disputes.", fee: "₹22,000", field: "ip" },
+            { name: "Maya Saini", description: "Bankruptcy lawyer with a focus on financial restructuring and debt relief.", fee: "₹24,500", field: "bankruptcy" },
+            { name: "Nitin Desai", description: "Corporate lawyer specializing in corporate restructuring and legal compliance.", fee: "₹27,000", field: "business" },
+            { name: "Reena Joshi", description: "Family law attorney with experience in family property disputes and adoption cases.", fee: "₹15,500", field: "family" },
+            { name: "Pradeep Kumar", description: "Criminal defense lawyer with a focus on white-collar crimes and federal offenses.", fee: "₹25,500", field: "criminal" },
+            { name: "Sanjay Singh", description: "Immigration attorney with a specialization in business visas and expatriate services.", fee: "₹18,000", field: "immigration" },
+            { name: "Madhuri Patel", description: "Employment lawyer handling employment discrimination and wrongful termination cases.", fee: "₹14,000", field: "employment" },
+            { name: "Ravi Rathi", description: "Personal injury lawyer with a successful track record in personal injury and accident claims.", fee: "₹16,000", field: "personal-injury" },
+            { name: "Amit Gupta", description: "Real estate lawyer specializing in property litigation and real estate transactions.", fee: "₹21,000", field: "real-estate" },
+            { name: "Swati Singh", description: "Tax lawyer with experience in international tax law and cross-border tax issues.", fee: "₹23,500", field: "tax" },
+            { name: "Arjun Patel", description: "Intellectual property attorney specializing in copyright and trademark enforcement.", fee: "₹24,000", field: "ip" },
+            { name: "Sushil Kumar", description: "Bankruptcy lawyer with expertise in insolvency proceedings and creditor negotiations.", fee: "₹26,000", field: "bankruptcy" }
+        ];
+
+        // Function to create a lawyer card HTML string
+        function createLawyerCard(lawyer) {
+            return `
+                <div class="col-md-4">
+                    <div class="card lawyer-card" data-filter="${lawyer.field}">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>${lawyer.name}</b></h5>
+                            <p class="card-text">${lawyer.description}</p>
+                            <p class="card-text fs-5">From <b>${lawyer.fee}</b></p>
+                            <a href="/hire-a-lawyer/form" class="btn btn-primary">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to render all lawyer cards
+        function renderLawyerCards() {
+            const container = document.getElementById('lawyer-cards-container');
+            container.innerHTML = lawyers.map(createLawyerCard).join('');
+        }
+
+        // Call the function to render the cards on page load
+        renderLawyerCards();
+    </script>
+</body>
+
+</html>
